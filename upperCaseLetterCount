@@ -1,0 +1,20 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		//Your Code Here
+		int count=0;
+	   Scanner sc=new Scanner(System.in);
+	   String str=sc.nextLine();
+	   char[] chh=str.toCharrArray();
+	   for(char chh:ch)
+	   {
+	       if(chh>='A'&&chh<='Z')
+	       {
+	           count++;
+	       }
+	   }
+	   System.out.print(count);
+
+	}
+}
