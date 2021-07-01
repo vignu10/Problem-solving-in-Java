@@ -6,7 +6,7 @@ public class Hello {
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
 		n=str.length();
-		System.out.print(str.substring(1,n-1);
+		System.out.print(str.substring(1,n-1));
 
 	}
 }
